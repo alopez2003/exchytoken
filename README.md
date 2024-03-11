@@ -14,5 +14,20 @@ Derivado que en el Sprint 1, sólo ocupamos un sólo contrato "Notarization.sol"
 
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/907a4071-460a-41fe-a247-070b16ac717f)
 
+Y al igual modificamos el contenido de cada uno de los archivos deploy
+
+deployICO.ts
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/ec03085a-3fa0-4921-b7db-567328854642)
+
+deployDEX.ts
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/66834774-219e-4cc1-b4ba-5b9358e847fc)
+
+
+
+
+
+
 
 
