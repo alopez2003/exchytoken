@@ -12,7 +12,7 @@ Lo siguiente fue desplegado en un Ubuntu LTS 22.04, lo primero que hice fue inst
 
 Derivado que en el Sprint 1, sólo ocupamos un sólo contrato "Notarization.sol", y en este desplegaremos dos contratos, fuimos al directorio donde se encuentran los scripts, en mi caso "/home/gethnode2/solidity1/Hardhat/scripts" y creamos dos archivos diferentes a partir del primero, uno con la finalidad de ejecutar el contrato de ICO y otro el contrato de DEX, se les llamó deployICO.ts y deployDEX.ts respectivamente
 
-![image](https://github.com/alopez2003/exchytoken/assets/67942268/907a4071-460a-41fe-a247-070b16ac717f)
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/89b8cbf0-cade-43df-b2ce-5ff8a1c3b64a)
 
 Y al igual modificamos el contenido de cada uno de los archivos deploy
 
