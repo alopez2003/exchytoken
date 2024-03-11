@@ -12,7 +12,7 @@ Lo siguiente fue desplegado en un Ubuntu LTS 22.04, lo primero que hice fue inst
 
 Derivado que en el Sprint 1, sólo ocupamos un sólo contrato "Notarization.sol", y en este desplegaremos dos contratos, fuimos al directorio donde se encuentran los scripts, en mi caso "/home/gethnode2/solidity1/Hardhat/scripts" y creamos dos archivos diferentes a partir del primero, uno con la finalidad de ejecutar el contrato de ICO y otro el contrato de DEX, se les llamó deployico.ts y deploydex.ts respectivamente
 
-![image](https://github.com/alopez2003/exchytoken/assets/67942268/89b8cbf0-cade-43df-b2ce-5ff8a1c3b64a)
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/339595d2-9273-44a1-96aa-46e05bb1a7ad)
 
 Y al igual modificamos el contenido de cada uno de los archivos deploy
 
@@ -23,7 +23,7 @@ deployico.ts
 
 deploydex.ts
 
-![image](https://github.com/alopez2003/exchytoken/assets/67942268/66834774-219e-4cc1-b4ba-5b9358e847fc)
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/cd3456bd-ec63-4f30-82be-9e039a9cf612)
 
 
 ### Implementación de un nuevo token (Initial Coin Offering, ICO)
@@ -35,6 +35,11 @@ Comenzaremos con el llamado "ICO.sol", donde lo que hacemos, es mintear, o lanza
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/e6572033-ef90-4979-a553-ff5bed6fddbf)
 
 Se planea hacer la ejecución sobre la red testnet de BNB, por lo que primero invocaremos sobre Hardhat un clean y luego un compile
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/13f4402d-f7c6-4404-8efa-5d829c2f5bae)
+
+_NOTA: Aprendí a la mala que los nombres de los contratos invocados deben ser iguales a los que se invocan en el script, compilaba el Hardhat pero al momento de llamar al deploy marcaba un error HH700 :D_
+
 
 
 
