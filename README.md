@@ -21,6 +21,27 @@ deployico.ts
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/26006634-ed2e-4391-a828-52dd07924f60)
 
 
+Podemos ver que fue creado el contrato en el BSC Scan haciendo la búsqueda por la address pública 0xb62806e9Ae935d616C983374FfC91903C719a5D1, que es a la que le estamos desplegando el contrato, y vemos que fue creado hace pocos minutos.
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/4a8a35c6-6615-49b6-a58f-8492a4de3a77)
+
+anexo la liga del address y del contrato
+
+Address:
+https://testnet.bscscan.com/address/0xb62806e9Ae935d616C983374FfC91903C719a5D1
+
+Transacción:
+https://testnet.bscscan.com/tx/0x99e9a7f1d721cd8d5f5032217458d3c635ae5169647bd005fc46434692df2b2d
+
+Contrato:
+
+https://testnet.bscscan.com/token/0x96665d6e7c49a6285123fecf0db3b9f6a010605f?a=0xb62806e9ae935d616c983374ffc91903c719a5d1
+
+
+
+
+
+
 deploydex.ts
 
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/cd3456bd-ec63-4f30-82be-9e039a9cf612)
