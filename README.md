@@ -118,6 +118,47 @@ Tuvimos un error por lo que empezamos de nuevo
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/11b04500-2b7c-4506-9a68-6a576878a1bc)
 
 
+Esta vez lo hicimos desde Remix, nos marcó algunos errores y lo realizamos con el compilador 0.8.24
+
+Se creó un nuevo contrato, trabajaremos por ahora con este
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/8d329b65-35a4-4fe8-a35d-7f8c64d98574)
+
+https://testnet.bscscan.com/tx/0x37a5fcbf8ceb558e1a37a1b52c9a644bf8f4b08eaec1d8cbd264601528add75d
+
+https://testnet.bscscan.com/address/0x6349e0f0fd22477001eaa1ed0da2e10063464f9b
+
+Comenzamos nuevamente el proceso de verificación con el archivo flattened y el compilador actualizado
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/eb7625d2-e3cd-4c46-b0ad-c695e0cf7fe1)
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/461df2f6-3d29-4ff5-bf3e-90d97172dab6)
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/2956000d-532a-4a2b-9a46-d2b604b40891)
+
+Vemos que ya está verificado el contrato
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/f7a500f3-2f78-44ad-af21-f864b8253fe6)
+
+Podemos verlo ya creado en la direccion creado con su nombre
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/7fee031e-f581-4564-9a72-d0bbf6c68298)
+
+Pudiendo ver todos sus atributos
+
+https://testnet.bscscan.com/token/0x6349e0f0fd22477001eaa1ed0da2e10063464f9b?a=0xb62806e9ae935d616c983374ffc91903c719a5d1#code
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/15de8bb2-7da9-4bf3-9c9c-94d0bbd45e90)
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/4d355e41-d7d0-4c51-a27b-a051122cdf1c)
+
+
+
+
+
+
+
+
 
 
 
