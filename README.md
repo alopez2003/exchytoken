@@ -84,6 +84,44 @@ y listo, vemos 10,000,000 de tokens de CHIL
 
 
 
+### Verificación
+
+Si revisamos el BSC Scan del contrato, podremos ver que está en bytecode, entonces procederemos a verificar el contrato
+
+https://testnet.bscscan.com/address/0x89313f72f28c104130a33ae1be3cabab32e7353f#code
+
+
+Si vamos a la revisión del archivo "hardhat.config.ts" vemos que tiene la versión del compilador 0.8.1
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/7210f96e-1d83-4191-a624-271ccbb665a9)
+
+Sin embargo tenemos dependencias en el código, entonces ocupamos la función de Hardhat "npx hardhat flatten" y nos regresa un código ya integrado:
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/d868bb70-70c3-4589-aeb4-4253ae02beda)
+
+Y ese archivo será el que subamos a la plataforma
+
+Primero damos click en Verify and Publish dentro de BSC Scan
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/d6f2a25b-eccb-45e4-a2dc-a9c2e5152001)
+
+Llenamos los campos establecidos
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/7d9d06ee-fc65-4f2c-8d8d-4370e4b34372)
+
+Pegamos el código y damos click en Verify and Publish
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/036ba894-0a9e-4278-a244-0d7331bf058a)
+
+Tuvimos un error por lo que empezamos de nuevo
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/11b04500-2b7c-4506-9a68-6a576878a1bc)
+
+
+
+
+
+
 
 
 
