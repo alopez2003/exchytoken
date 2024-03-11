@@ -53,6 +53,41 @@ Transacción:
 https://testnet.bscscan.com/tx/0x99e9a7f1d721cd8d5f5032217458d3c635ae5169647bd005fc46434692df2b2d
 
 Contrato:
-
 https://testnet.bscscan.com/token/0x96665d6e7c49a6285123fecf0db3b9f6a010605f?a=0xb62806e9ae935d616c983374ffc91903c719a5d1
+
+Para agregar a Metamask, vemos inicialmente que tenemos BNB de pruebas en la cuenta, pero no tenemos el token
+
+.![image](https://github.com/alopez2003/exchytoken/assets/67942268/a6285d1a-d466-4412-96d7-c533531fd94e)
+
+Lo que hacemos es introducir manualmente el token con el número de contrato
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/0add7718-9531-42af-8c29-7c4921683829)
+
+Vemos que la dirección tiene algunos tokens, vamos a agregar más
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/802324cf-203b-424e-86a6-7a668f6cd92c)
+
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/d5f0303f-853f-4c1a-ae4e-e65579dce30f)
+
+Vemos un tercer contrato desplegado
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/5ea133fe-f470-4684-94a7-4036909414df)
+
+Importamos con el nuevo contrato
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/80931650-2262-4561-8785-aabac9084702)
+
+y listo, vemos 10,000,000 de tokens de CHIL
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/7c2a9bec-3f75-4bdb-bcd5-0ce592193bef)
+
+
+
+
+
+
+
+
+
 
