@@ -25,6 +25,18 @@ deployDEX.ts
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/66834774-219e-4cc1-b4ba-5b9358e847fc)
 
 
+### Implementación de un nuevo token (Initial Coin Offering, ICO)
+
+Tal y como vimos, derivado del archivo de deploy "deployICO.ts" hace una llamada hacia los Smart Contracts, mismos que podemos ver en este mismo GitHub.
+
+Comenzaremos con el llamado "ICO.sol", donde lo que hacemos, es mintear, o lanzar un nuevo token, en este caso uno llamado "Chilango" y que tendrá como abreviatura "CHIL", para esto modificamos el archivo "ICO.sol" que sacamos de la documentación de Open Zeppelin, y que con la revisión en clase, pudimos ver su ejecución.
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/e6572033-ef90-4979-a553-ff5bed6fddbf)
+
+Se planea hacer la ejecución sobre la red testnet de BNB, por lo que primero invocaremos sobre Hardhat un clean y luego un compile
+
+
+
 
 
 
