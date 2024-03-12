@@ -153,7 +153,9 @@ https://testnet.bscscan.com/token/0x6349e0f0fd22477001eaa1ed0da2e10063464f9b?a=0
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/4d355e41-d7d0-4c51-a27b-a051122cdf1c)
 
 
+### Smart Contract para implementación de un DEX (Exchange descentralizado) con AMM (Automated Market Maker)
 
+Para este caso, ocuparemos también 
 
 
 
