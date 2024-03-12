@@ -209,6 +209,42 @@ Si ahora vemos el contrato podremos ver que ya cuenta con tokens de CHIL
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/d6aa55d6-17ed-447f-b489-1bf754fb1f96)
 
 
+### transferFrom
+
+Ahora ocupemos la funcion transferFrom para transferir de esos 5,000,000 de CHILS, vamos a transferir 1,000,000, damos click en Write
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/0e613b6f-e228-438b-a16a-810b104bd5c8)
+
+En MetaMask manda un mensaje de que no se puede estimar el gas, y por tanto no permite ejecutar la operación
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/95b5c12e-b96c-4514-b9c0-1e1d009eab34)
+
+Intentemos hacer esta operación enviando desde mi cuenta hacia una cuenta 2
+
+Cuenta 1: 0xb62806e9Ae935d616C983374FfC91903C719a5D1
+Cuenta 2: 0x80392D2071c4E1aBBDdD3DBf8eaCa4431081b787
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/28d9d87a-5f52-45ee-83df-86ed7195d25f)
+
+
+Damos confirmar en MetaMask, aunque marca el mismo error
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/88546218-4637-4e0d-a63c-787841e5824f)
+
+Se quedó en estado de pending, esto se puede verificar en el explorador de bloques
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/8b1ccfd5-4938-4c6d-978e-742c3b4716e7)
+
+https://testnet.bscscan.com/tx/0x1ea3a9954106652533ccc45386cb017c40ee3148e2194bfc69e7c9fd43c7c306
+
+
+
+
+
+
+
+
+
 
 
 
