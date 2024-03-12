@@ -182,6 +182,44 @@ Validación del código del contrato: https://testnet.bscscan.com/address/0x6b7c
 
 El contrato fue desplegado con la address del contrato de la ico, con el que minteamos el token Chilango, que es la 0x6349e0F0Fd22477001eAa1Ed0Da2e10063464f9b
 
+#### transfer
+
+Lo primero que vamos a hacer es fondear el contrato de la DEX, pasando algunos tokens de Chilango para poder ser intercambiados por BNB, para esto ocupamos la función transfer
+
+Para esto vamos al explorador de bloques del token (Chilango) y en el contrato damos click en el botón de "Write Contract", previo conectarlo con el MetaMask, y desde ahí mandamos tokens a la dirección del contrato 0x6B7c61b81D0278A184153cF81A102D2cdEAAA411
+
+Tenemos 10,000,000 CHIL, por lo que depositamos la mitad de estos tokens, esto es, pasaremos 5000000000000000000000000, esto conforme cálculo realizado en eth-converter.com
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/6085ad70-bf66-41b2-8899-25ac7cfe4256)
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/27f7707a-95ec-4bd7-ad46-5ce14142ce78)
+
+Confirmamos la transacción en MetaMask
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/f929b52c-387b-4047-9062-85fb04e5be0d)
+
+Y podemos ver la transacción en el explorador de bloques
+
+https://testnet.bscscan.com/tx/0xe6885151d8800d751e615dcc9b875b83a559867a1c9ced5cb8906749b45ba6f8
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/013b8c5f-b1f5-4849-af4b-c6fe15deb035)
+
+Si ahora vemos el contrato podremos ver que ya cuenta con tokens de CHIL
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/d6aa55d6-17ed-447f-b489-1bf754fb1f96)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
