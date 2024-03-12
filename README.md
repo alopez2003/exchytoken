@@ -39,6 +39,7 @@ Se planea hacer la ejecución sobre la red testnet de BNB, por lo que primero in
 
 _NOTA: Aprendí a la mala que los nombres de los contratos invocados deben ser iguales a los que se invocan en el script, compilaba el Hardhat pero al momento de llamar al deploy marcaba un error HH700 :D_
 
+#### Mint
 
 Podemos ver que fue creado el contrato en el BSC Scan haciendo la búsqueda por la address pública 0xb62806e9Ae935d616C983374FfC91903C719a5D1, que es a la que le estamos desplegando el contrato, y vemos que fue creado hace pocos minutos.
 
@@ -151,6 +152,10 @@ https://testnet.bscscan.com/token/0x6349e0f0fd22477001eaa1ed0da2e10063464f9b?a=0
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/15de8bb2-7da9-4bf3-9c9c-94d0bbd45e90)
 
 ![image](https://github.com/alopez2003/exchytoken/assets/67942268/4d355e41-d7d0-4c51-a27b-a051122cdf1c)
+
+_Nota: La función de Mint la realizamos desde un inicio, no la contiene este smart contract, veamos las funciones transfer, approve y transferFrom, para la parte de burn, verificaremos si es posible hacerlo enviando algunos tokens hacia la dirección 0x_
+
+
 
 
 ### Smart Contract para implementación de un DEX (Exchange descentralizado)
