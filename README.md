@@ -164,6 +164,25 @@ Para este caso, ocuparemos también Remix debido a que es la forma que encontram
 
 NOTA: Había pegado ya varias capturas de pantalla verificando el contrato, sin embargo se fue a pantalla azul la computadora antes de poder guardar el archivo en github, pondré algunas respecto a la verificación del contrato con las imagenes que pueda rescatar
 
+Subimos el archivo .sol (dex.sol) a Remix y como tenemos el autocompilador vemos que está compilado de forma correcta
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/212e8ac6-6e8f-46c8-aab7-95568d519ea2)
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/de18308b-9841-4af4-b139-7ee07ecea417)
+
+Fue desplegado con el plug-in de MetaMask
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/f7c3089c-8dc8-41ac-95a6-b2aac0ef1e53)
+
+Y al final, cuando fue desplegado, lo vemos en la siguiente dirección
+
+Liga de la transacción: https://testnet.bscscan.com/tx/0x851df3a43cab7aafc08958b3e12b46f535a24e4c39595265a91ea2b4944d45a1
+Liga del contrato: https://testnet.bscscan.com/address/0x6b7c61b81d0278a184153cf81a102d2cdeaaa411
+Validación del código del contrato: https://testnet.bscscan.com/address/0x6b7c61b81d0278a184153cf81a102d2cdeaaa411#code
+
+El contrato fue desplegado con la address del contrato de la ico, con el que minteamos el token Chilango, que es la 0x6349e0F0Fd22477001eAa1Ed0Da2e10063464f9b
+
+
 
 
 
