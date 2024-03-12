@@ -160,7 +160,11 @@ _Nota: La función de Mint la realizamos desde un inicio, no la contiene este sm
 
 ### Smart Contract para implementación de un DEX (Exchange descentralizado)
 
-Para este caso, ocuparemos también 
+Para este caso, ocuparemos también Remix debido a que es la forma que encontramos para verificar el contrato.
+
+NOTA: Había pegado ya varias capturas de pantalla verificando el contrato, sin embargo se fue a pantalla azul la computadora antes de poder guardar el archivo en github, pondré algunas respecto a la verificación del contrato con las imagenes que pueda rescatar
+
+
 
 
 
