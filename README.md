@@ -285,45 +285,6 @@ vemos que todo esto está relacionado con la parte del gas, mismo que se puede m
 
 Debido al apagon del equipo, tendría que desplegar en otro contrato.
 
+Mi duda resaltaría si es que se podría realizar esto desde el explorador de bloques sin necesidad de ocupar Remix.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Muchas gracias por el aprendizaje!!
