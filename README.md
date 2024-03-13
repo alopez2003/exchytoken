@@ -237,6 +237,59 @@ Se quedó en estado de pending, esto se puede verificar en el explorador de bloq
 
 https://testnet.bscscan.com/tx/0x1ea3a9954106652533ccc45386cb017c40ee3148e2194bfc69e7c9fd43c7c306
 
+Vamos a cancelar esta transacción
+
+
+
+#### burn
+
+Ahora intentemos quemar 500,000 CHIL ocupando la fución transfer pero a la dirección 0x, veamos el resultado
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/56150dd3-724f-4174-aa38-068ec9d2849c)
+
+Manda el siguiente error:
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/6dbba1d4-a268-4089-a350-fa7aaeda7111)
+
+Veamos si podemos hacer lo mismo cuando ejecutemos las funciones de compra y de venta
+
+#### buy
+
+Sabemos que dentro del contrato tenemos 5,000,000 de CHIL, entonces compremos 1,500,000
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/e481b440-6248-4ac0-899f-d90ff9a9ac27)
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/78abe4a6-cb7c-46a5-94c9-867d1dbbcaf4)
+
+Nuevamente nos salió el error de la estimación de gas
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/eb304856-67b8-4dda-9589-e70e1a1672d3)
+
+#### approve
+
+Vamos a aprobar la dirección del contrato pensando en que ese pueda ser el problema, dentro del contrato de CHIL pongamos la dirección del contrato con el monto a aprobar
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/d74a07f2-dbaf-4adb-89e3-c7de8777b543)
+
+Aprobamos en MetaMask
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/d493a32f-a3bc-439c-bd2a-889340b7a167)
+
+Vemos que se queda igual en pending
+
+https://testnet.bscscan.com/tx/0x61124d4a2eb50f38a65360ff574e765d4a4239f602a53528ed111ea891b78e82
+
+![image](https://github.com/alopez2003/exchytoken/assets/67942268/afa95a52-8013-4e5a-a210-d9693ffba368)
+
+vemos que todo esto está relacionado con la parte del gas, mismo que se puede manipular desde Remix
+
+Debido al apagon del equipo, tendría que desplegar en otro contrato.
+
+
+
+
+
+
 
 
 
